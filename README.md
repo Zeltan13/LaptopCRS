@@ -49,8 +49,9 @@ cd LaptopCRS
 - jsonlines: 4.0.0
 - os: Built-in module (no version)
 - sklearn: 1.5.1
-'''bash 
+```bash 
 pip install openai==1.54.4 faiss-cpu==1.7.4 pandas==2.0.3 numpy==1.26.1 tqdm==4.66.4 jsonlines==4.0.0 scikit-learn==1.5.1
+```
 ## 3. Get your own OpenAI API
 - Sign up/ Log in to OpenAI website
 - Get Your API Key

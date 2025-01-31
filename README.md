@@ -35,9 +35,10 @@ The system utilizes two primary datasets:
 
 ## 🚀 Installation & Setup
 ### 1️. Clone the Repository
+```bash 
 git clone https://github.com/Zeltan13/LaptopCRS.git
 cd LaptopCRS
-
+```
 ### 2. Check the versions of libraries
 - Python: 3.10
 - openai: 1.54.4

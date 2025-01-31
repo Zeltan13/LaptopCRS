@@ -38,12 +38,25 @@ The system utilizes two primary datasets:
 git clone https://github.com/Zeltan13/LaptopCRS.git
 cd LaptopCRS
 
-### 2. Get your own OpenAI API
+### 2. Check the versions of libraries
+- Python: 3.10
+- openai: 1.54.4
+- faiss: 1.7.4
+- pandas: 2.0.3
+- numpy: 1.26.1
+- tqdm: 4.66.4
+- json: Built-in module (no version)
+- jsonlines: 4.0.0
+- os: Built-in module (no version)
+- sklearn: 1.5.1
+'''bash 
+pip install openai==1.54.4 faiss-cpu==1.7.4 pandas==2.0.3 numpy==1.26.1 tqdm==4.66.4 jsonlines==4.0.0 scikit-learn==1.5.1
+## 3. Get your own OpenAI API
 - Sign up/ Log in to OpenAI website
 - Get Your API Key
 - Replace "Your OpenAI API Key" on the code to your own OpenAI API Key 
 
-## 3. Run the Recommender System
+## 4. Run the Recommender System
 To run the **RAG-Based CRS**:
 python RAG_CRS.py
 

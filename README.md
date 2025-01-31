@@ -22,7 +22,7 @@ The CRS was evaluated using three models:
 | **Hit Rate@5**  | 0.90  | 1.00  | 1.00  |
 | **Precision@5** | 0.82  | 0.90  | 0.91  |
 | **NDCG@5**      | 0.85  | 0.99  | 0.98  |
-| **User Preference (%)** | 15  | 21  | 60 |
+| **User Preference** | 15  | 21  | 60 |
 
 The **Combined Model (GPT-4o + RAG)** outperformed other models as a whole, achieving **higher accuracy and user satisfaction.**
 
